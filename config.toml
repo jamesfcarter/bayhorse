@@ -1,13 +1,15 @@
 baseurl = "http://home.jfc.org.uk:8000/bayhorse/"
 languageCode = "en-gb"
-title = "Buy The Bay Horse"
+title = "Friends of the Bay Horse"
 [params]
     mainIcon = "img/logo.png"
 
     [[params.social]]
 	title = "twitter"
-	url = "https://twitter.com/carterjf"
+	icon = "twitter"
+	url = "https://twitter.com/bayhorsefriends"
 
     [[params.social]]
 	title = "facebook"
-	url = "https://www.facebook.com/jamesfcarter"
+	icon = "facebook"
+	url = "https://www.facebook.com/friendsofthebayhorse"
