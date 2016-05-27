@@ -112,6 +112,14 @@ and (orientation : landscape) {
     color: #ffffff;
 }
 
+.point a:link {
+    color: #ffffff;
+}
+
+.point a:visited {
+    color: #ffffff;
+}
+
 
 .point h2, .counterpoint h2 {
     font-size: 32pt;

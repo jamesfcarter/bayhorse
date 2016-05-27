@@ -5,11 +5,16 @@ title = "Friends of the Bay Horse"
     mainIcon = "img/logo.png"
 
     [[params.social]]
-	title = "twitter"
-	icon = "twitter"
+	title = "Business Plan"
+	icon = "fa-bar-chart-o"
+	url = "http://cloud.thebayhorse.pub/s/bezvY3QOEobqyHC"
+
+    [[params.social]]
+	title = "Twitter"
+	icon = "fa-twitter"
 	url = "https://twitter.com/bayhorsefriends"
 
     [[params.social]]
-	title = "facebook"
-	icon = "facebook"
+	title = "Facebook"
+	icon = "fa-facebook"
 	url = "https://www.facebook.com/friendsofthebayhorse"

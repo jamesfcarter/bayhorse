@@ -14,4 +14,7 @@ Our revenue model for the first year is pessimistic, and is working on only a gr
 * Christmas; AND
 * A consistent marketing budget.
 
-A full business plan will be available here shortly.
+<div class="text-center">
+<a href="http://cloud.thebayhorse.pub/s/bezvY3QOEobqyHC" class="btn btn-default btn-lg btn-info"><i class="fa fa-bar-chart-o"></i> <span class="network-name">Full business plan</span></a>
+</div>
+
