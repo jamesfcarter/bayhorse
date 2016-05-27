@@ -7,7 +7,7 @@
         {{ if modBool $index 2 }}<div id="intro" class="counterpoint">{{ else }}<div id="intro" class="point">{{ end}}
           <div class="container">
             <div class="row">
-              <div class="col-md-6 col-md-offset-3 text-center">
+              <div class="col-md-6 col-md-offset-3">
                 {{ if (isset .Params "icon") }}
                     <i class="lead-icon icon-{{ .Params.icon }}"></i>
                 {{ end }}
