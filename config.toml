@@ -1,4 +1,4 @@
-baseurl = "http://home.jfc.org.uk:8000/bayhorse/"
+baseurl = "http://thebayhorse.pub/"
 languageCode = "en-gb"
 title = "Friends of the Bay Horse"
 [params]
