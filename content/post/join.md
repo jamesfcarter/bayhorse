@@ -4,6 +4,8 @@ title = "Join Today"
 
 +++
 
+<div name="join" />
+
 <form action="http://pub.us12.list-manage1.com/subscribe/post" method="POST">
 <input type="hidden" name="u" value="7ecb97eb9f40939f20818f021">
 <input type="hidden" name="id" value="2327575a87">

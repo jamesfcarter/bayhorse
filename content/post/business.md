@@ -13,8 +13,8 @@ Our revenue model for the first year is pessimistic, and is working on only a gr
 * Annual community events at Easter, Bonfire Night and
 * Christmas; AND
 * A consistent marketing budget.
-
 <div class="text-center">
+<br /><br />
 <a href="http://cloud.thebayhorse.pub/s/bezvY3QOEobqyHC" class="btn btn-default btn-lg btn-info"><i class="fa fa-bar-chart-o"></i> <span class="network-name">Full business plan</span></a>
 </div>
 
