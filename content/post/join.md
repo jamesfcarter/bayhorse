@@ -20,20 +20,20 @@ title = "Join Today"
 </fieldset>
     
 
-<fieldset class="form-group">
+<fieldset class="form-inline">
 <label for="MERGE3">Address</label>
 <div class="field-group">
-<label for="MERGE3-addr1">Street Address</label>
-<input type="text" id="MERGE3-addr1" name="MERGE3[addr1]" maxlength="70" value="" placeholder="Street Address" class="av-text">
-<label for="MERGE3-addr2">Address Line 2</label>
-<input type="text" id="MERGE3-addr2" name="MERGE3[addr2]" maxlength="70" value="" placeholder="Address Line 2" class="av-text">
-<label for="MERGE3-city">City</label>
-<input type="text" id="MERGE3-city" name="MERGE3[city]" maxlength="40" value="" placeholder="City" class="av-text">
-<label for="MERGE3-state">State/Prov/Region</label>
-<input type="text" id="MERGE3-state" name="MERGE3[state]" maxlength="20" value="" placeholder="State/Prov/Region" class="av-text">
-<label for="MERGE3-zip">Postal/Zip</label>
-<input type="text" id="MERGE3-zip" name="MERGE3[zip]" maxlength="10" value="" placeholder="Postal/Zip" class="av-text">
-<label for="MERGE3-country">Country</label>
+<label class="sr-only" for="MERGE3-addr1">Street Address</label>
+<input type="text" id="MERGE3-addr1" name="MERGE3[addr1]" maxlength="70" value="" placeholder="Street Address" class="form-control">
+<label class="sr-only" for="MERGE3-addr2">Address Line 2</label>
+<input type="text" id="MERGE3-addr2" name="MERGE3[addr2]" maxlength="70" value="" placeholder="Address Line 2" class="form-control">
+<label class="sr-only" for="MERGE3-city">City</label>
+<input type="text" id="MERGE3-city" name="MERGE3[city]" maxlength="40" value="" placeholder="City" class="form-control">
+<label class="sr-only" for="MERGE3-state">County</label>
+<input type="text" id="MERGE3-state" name="MERGE3[state]" maxlength="20" value="" placeholder="County" class="form-control">
+<label class="sr-only" for="MERGE3-zip">Post Code</label>
+<input type="text" id="MERGE3-zip" name="MERGE3[zip]" maxlength="10" value="" placeholder="Post Code" class="form-control">
+<label class="sr-only" for="MERGE3-country">Country</label>
 <select class="select-small" id="MERGE3-country" name="MERGE3[country]">
 <option value="164" >USA</option>
 <option value="286" >Aaland Islands</option>
@@ -273,7 +273,11 @@ title = "Join Today"
 </fieldset>
 
 <!-- real people should not fill this in and expect good things -->
-<!-- <input type="text" name="b_7ecb97eb9f40939f20818f021_2327575a87" tabindex="-1" value=""> -->
+<fieldset class="hide">
+<input type="text" name="b_7ecb97eb9f40939f20818f021_2327575a87" tabindex="-1" value=""> 
+</fieldset>
 
+<fieldset class="form-group"><br />
 <input type="submit" class="btn btn-primary" name="submit" value="Apply">
+</fieldset>
 </form>
