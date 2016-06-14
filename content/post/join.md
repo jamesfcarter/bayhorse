@@ -6,37 +6,40 @@ title = "Join Today"
 
 <div name="join" />
 
-<form action="http://pub.us12.list-manage1.com/subscribe/post" method="POST">
-<input type="hidden" name="u" value="7ecb97eb9f40939f20818f021">
-<input type="hidden" name="id" value="2327575a87">
+<form action="/email.php" method="POST">
 
 <fieldset class="form-group">
-<label for="MERGE1">Shareholder Name</label>
-<input type="text" class="form-control" name="MERGE1" id="MERGE1" size="25" value="">
+<label for="name">Shareholder Name</label>
+<input type="text" class="form-control" name="name" id="name" size="25" value="">
 </fieldset>
     
 <fieldset class="form-group">
-<label for="MERGE0">Email Address</label>
-<input type="email" class="form-control" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+<label for="email">Email Address</label>
+<input type="email" class="form-control" autocapitalize="off" autocorrect="off" name="email" id="email" size="25" value="">
 <small class="text-muted">We'll never share your email with anyone else.</small>
 </fieldset>
     
+<fieldset class="form-group">
+<label for="shares">Number of shares</label>
+<input type="text" class="form-control" name="shares" id="shares" size="6" value="">
+<small class="text-muted">Shares are £1 each. The minumum number is 200, the maximum 100,000.</small>
+</fieldset>
 
 <fieldset class="form-inline">
-<label for="MERGE3">Address</label>
+<label for="addr">Address</label>
 <div class="field-group">
-<label class="sr-only" for="MERGE3-addr1">Street Address</label>
-<input type="text" id="MERGE3-addr1" name="MERGE3[addr1]" maxlength="70" value="" placeholder="Street Address" class="form-control">
-<label class="sr-only" for="MERGE3-addr2">Address Line 2</label>
-<input type="text" id="MERGE3-addr2" name="MERGE3[addr2]" maxlength="70" value="" placeholder="Address Line 2" class="form-control">
-<label class="sr-only" for="MERGE3-city">City</label>
-<input type="text" id="MERGE3-city" name="MERGE3[city]" maxlength="40" value="" placeholder="City" class="form-control">
-<label class="sr-only" for="MERGE3-state">County</label>
-<input type="text" id="MERGE3-state" name="MERGE3[state]" maxlength="20" value="" placeholder="County" class="form-control">
-<label class="sr-only" for="MERGE3-zip">Post Code</label>
-<input type="text" id="MERGE3-zip" name="MERGE3[zip]" maxlength="10" value="" placeholder="Post Code" class="form-control">
-<label class="sr-only" for="MERGE3-country">Country</label>
-<select class="select-small" id="MERGE3-country" name="MERGE3[country]">
+<label class="sr-only" for="addr-addr1">Street Address</label>
+<input type="text" id="addr-addr1" name="addr[addr1]" maxlength="70" value="" placeholder="Street Address" class="form-control">
+<label class="sr-only" for="addr-addr2">Address Line 2</label>
+<input type="text" id="addr-addr2" name="addr[addr2]" maxlength="70" value="" placeholder="Address Line 2" class="form-control">
+<label class="sr-only" for="addr-addr3">City</label>
+<input type="text" id="addr-addr3" name="addr[addr3]" maxlength="40" value="" placeholder="City" class="form-control">
+<label class="sr-only" for="addr-addr4">County</label>
+<input type="text" id="addr-addr4" name="addr[addr4]" maxlength="20" value="" placeholder="County" class="form-control">
+<label class="sr-only" for="addr-addr5">Post Code</label>
+<input type="text" id="addr-addr5" name="addr[addr5]" maxlength="10" value="" placeholder="Post Code" class="form-control">
+<label class="sr-only" for="addr-country">Country</label>
+<select class="select-small" id="addr-country" name="addr[country]">
 <option value="164" >USA</option>
 <option value="286" >Aaland Islands</option>
 <option value="274" >Afghanistan</option>
@@ -276,10 +279,16 @@ title = "Join Today"
 
 <!-- real people should not fill this in and expect good things -->
 <fieldset class="hide">
-<input type="text" name="b_7ecb97eb9f40939f20818f021_2327575a87" tabindex="-1" value=""> 
+<input type="text" name="addr6" tabindex="-1" value=""> 
 </fieldset>
 
 <fieldset class="form-group"><br />
 <input type="submit" class="btn btn-primary" name="submit" value="Apply">
 </fieldset>
 </form>
+
+<p>
+If you have any questions or concerns please contact committee@thebayhorse.pub and we'll be happy to address them.
+</p>
+
+</div>
