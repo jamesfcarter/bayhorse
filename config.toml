@@ -5,6 +5,11 @@ title = "Friends of the Bay Horse"
     mainIcon = "img/logo.png"
 
     [[params.social]]
+	title = "Prospectus"
+	icon = "fa-info"
+	url = "thebayhorse_digital_singlepages.pdf"
+
+    [[params.social]]
 	title = "Business Plan"
 	icon = "fa-bar-chart-o"
 	url = "http://cloud.thebayhorse.pub/s/bezvY3QOEobqyHC"
